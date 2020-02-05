@@ -1,0 +1,208 @@
+.itemHeader{
+  grid-area: header;
+}
+
+.itemLeft{
+  grid-area: left;
+  background-color: lightgreen;
+}
+
+.itemSquare1{
+  grid-area: square1;
+}
+
+.itemSquare2{
+  grid-area: square2;
+}
+
+.itemSquare3{
+  grid-area: square3;
+}
+
+.itemSquare4{
+  grid-area: square4;
+}
+
+.itemRight{
+  grid-area: right;
+  background-color: lightgreen;
+}
+
+/* .grid-container{
+  display:grid;
+  grid-template-areas: 'left header header right' 'left square1 square2 right' 'left square3 square 4 right';
+  grid-gap: 50px;
+  padding: 10px;
+}
+
+.grid-container{
+  text-align:center;
+  padding: 20px 0;
+  background-color: #2196F3;
+  background-color: rgba(255,255,255,0.8);
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'left header header right' 'left square1 square2 right' 'left square3 square4 right';
+  grid-gap: 50px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+.my-description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.my-rightDescription{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.my-title {
+  color: blue;
+}
+
+.my-history {
+  color: blue;
+}
+
+
+.my-characters {
+  /* margin-left: 220%; */
+  /* width: 75%; */
+  /* height: 200px; */
+  background-color: blue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* clear: both; */
+}
+
+/* .img {
+  width: 400px;
+} */
+
+.my-characterImages {
+  width: 200px;
+  height: 300px;
+}
+
+.my-izukoTitle {
+  background: lightgreen;
+}
+
+.my-izukoQuirk{
+  background: lightblue;
+}
+
+.my-izukoDescription{
+  background: lightgreen;
+  font-size: 150%;
+}
+
+.my-izukoImages{
+  width:700px;
+  height:350px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/* .my-emptyLine1{
+  background-color: lightblue;
+} */
+.my-bakugoTitle {
+  background: lightgreen;
+}
+
+.my-bakugoDescription{
+  background: lightgreen;
+  font-size: 150%;
+}
+
+.my-bakugoImages{
+  width:700px;
+  height:365px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.my-todorokiTitle {
+  background: lightgreen;
+}
+
+.my-todorokiQuirk{
+  background: lightblue;
+}
+
+.my-todorokiDescription{
+  background: lightgreen;
+  font-size: 150%;
+}
+
+.my-todorokiImages{
+  width:300px;
+  height:350px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.my-tenyaTitle {
+  background: lightgreen;
+}
+
+.my-tenyaQuirk{
+  background: lightblue;
+}
+
+.my-tenyaDescription{
+  background: lightgreen;
+  font-size: 150%;
+}
+
+.my-tenyaImages{
+  width:700px;
+  height:350px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91kjVOEopVL._AC_SL1500_.jpg");
+  background-size: 100px;
+  /* width: 200px;
+  height: 200px; */
+  font-weight: bold;
+
+}
